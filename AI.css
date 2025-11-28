@@ -1,4 +1,4 @@
-.main-header {
+/* .main-header {
     background: #0e61c7;
     color: black;
     text-align: center;
@@ -67,5 +67,102 @@ ol {
 
 u {
     text-decoration-color: #1a4c8f;
+    text-decoration-thickness: 2px;
+} */
+
+
+
+
+.main-header {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+}
+
+
+body {
+    background-color: #0b0f1a;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #dce3ff;
+
+    line-height: 1.6;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #c9d7ff;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #80a6ff;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #9ab3ff;
+}
+
+h4 {
+    font-size: 1.1rem;
+    color: #b8c7ff;
+}
+
+
+p {
+    font-size: 1rem;
+}
+
+
+ul,
+ol {
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+.bg {
+    width: fit-content;
+    background-image: url(Images/images.jpg);
+    background-blend-mode: lighten;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 65px;
+
+    padding: 15px 20px 10px 15px;
+
+    background-color: #0d1b2a;
+
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.intro,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+.t7,
+.t8 {
+    background: linear-gradient(145deg, #102043, #4f2bbd);
+
+    border: 2px solid #9bc0ff;
+    box-shadow: 0 0 12px rgba(90, 150, 255, 0.4);
+    margin-top: 20px;
+    border-radius: 18px;
+}
+
+
+u {
+    text-decoration-color: #70a2ff;
     text-decoration-thickness: 2px;
 }
