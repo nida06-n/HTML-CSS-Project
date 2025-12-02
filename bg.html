@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background change color</title>
+</head>
+
+<body style="text-align: center; margin-top: 150px;">
+
+    <button onclick="changecolor()" style="font-size: xx-large;" title="click to change bg color">⭕</button>
+
+    <h1 id="countNumber">0</h1>
+
+    <script>
+        let count = 0;
+
+        function changecolor() {
+            let randomcolor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+
+
+            document.body.style.backgroundColor = randomcolor;
+
+
+            count++;
+
+
+            document.getElementById("countNumber").innerText = count;
+        }
+    </script>
+</body>
+<a href="bg2.html"><button style="text-align: end; margin-top: 10px;">Next Page for Auto Transition</button></a>
+
+</html>
